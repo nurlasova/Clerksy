@@ -595,12 +595,17 @@ a {
 }
 
 .date__input {
-  width: 100%;
+  width: 85%;
   min-height: 54px;
   border-radius: 160px;
   background-color: #FBFAF7;
   outline: none;
   border: none;
+  padding: 0px 20px 0 20px;
+  color: #163A24;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .date__btn {
@@ -615,6 +620,13 @@ a {
   padding: 0 25px;
   background-color: #198C36;
   color: #FBFAF7;
+  cursor: pointer;
+}
+
+.date__btn:hover {
+  border: 2px solid #198C36;
+  color: #198C36;
+  background-color: #FBFAF7;
 }
 
 .date__description {
