@@ -1,0 +1,12 @@
+@media screen and (max-width: 750px) {
+    .date{
+        &__title{
+         text-align: center;
+         }
+         &__description{
+            text-align: center;
+            margin-bottom: 15px;
+        }
+       
+    }
+}

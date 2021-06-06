@@ -1,12 +1,9 @@
-.date {
-  padding: 55px 0 75px;
-}
-
-.date__form {
-  width: 100%;
-}
-
-.date__input {
-  width: 100%;
-  min-height: 54px;
+@media screen and (max-width: 750px) {
+  .date__title {
+    text-align: center;
+  }
+  .date__description {
+    text-align: center;
+    margin-bottom: 15px;
+  }
 }

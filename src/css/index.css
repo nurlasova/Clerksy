@@ -694,7 +694,7 @@ a {
 }
 
 @media screen and (max-width: 750px) {
-  .col-5, .col-7, .col-6, .col-3 {
+  .col-5, .col-7, .col-6, .col-3, .col-4 {
     width: 100%;
   }
 }
@@ -712,6 +712,10 @@ a {
 @media screen and (max-width: 750px) {
   .section__title {
     font-size: 30px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -764,8 +768,9 @@ a {
 @media screen and (max-width: 750px) {
   .human__img {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    width: 80%;
   }
   .human__title {
     max-width: 100%;
@@ -783,8 +788,8 @@ a {
     padding-left: 0;
     flex-direction: column;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
   }
   .human .display-none {
     display: block;
@@ -807,5 +812,54 @@ a {
 @media screen and (max-width: 750px) {
   .product__item {
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .interest__row {
+    margin: -10px 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .interest__title {
+    color: #163A24;
+    text-align: center;
+  }
+  .interest__description {
+    margin: 25px 0 18px;
+    color: #FBFAF7;
+    text-align: center;
+  }
+  .interest__item {
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .get__title {
+    text-align: center;
+  }
+  .get__description {
+    text-align: center;
+  }
+  .get__btn {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .date__title {
+    text-align: center;
+  }
+  .date__description {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .footer__list {
+    display: flex;
+    flex-wrap: wrap;
   }
 }

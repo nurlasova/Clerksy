@@ -1,0 +1,19 @@
+@media screen and (max-width: 750px) {
+  .interest__row {
+    margin: -10px 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .interest__title {
+    color: #163A24;
+    text-align: center;
+  }
+  .interest__description {
+    margin: 25px 0 18px;
+    color: #FBFAF7;
+    text-align: center;
+  }
+  .interest__item {
+    margin: 20px 0;
+  }
+}

@@ -1,1 +1,33 @@
-/* No CSS */
+@media screen and (max-width: 750px) {
+  .human__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+  .human__title {
+    max-width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .human__description {
+    max-width: 80%;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .human__content {
+    padding-left: 0;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .human .display-none {
+    display: block;
+  }
+  .human .display-block {
+    display: none;
+  }
+}
