@@ -1,0 +1,52 @@
+.hero {
+  background-color: $color-green;
+  height: 85vh;
+  position: relative;
+  &__row {
+    align-items: center;
+  }
+  &__title {
+    @include font($color-white, 48px, 600, $font-jose);
+    margin: 120px 0 20px;
+  }
+  &__description {
+    @include font($color-white, 18px, normal, $font-noto);
+    color: $color-white;
+  }
+  &__img {
+    position: absolute;
+    bottom: 0;
+  }
+  .star--big,
+  .star--orange,
+  .star--pink,
+  .star--yellow {
+    position: absolute;
+    animation: fades 1s infinite backwards;
+    opacity: 1;
+  }
+  .star--big {
+    top: 5%;
+    right: 70%;
+  }
+  .star--orange {
+    top: 12%;
+    right: 5%;
+  }
+  .star--pink {
+    bottom: 12%;
+    left: 5%;
+  }
+  .star--yellow {
+    top: 19%;
+    right: 15%;
+  }
+  @keyframes fades {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+}
